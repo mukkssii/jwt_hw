@@ -1,8 +1,6 @@
 import jwt
 import datetime
 
-from jwt import ExpiredSignatureError
-
 
 def encode_token(payload_dict: dict):
     payload = {
